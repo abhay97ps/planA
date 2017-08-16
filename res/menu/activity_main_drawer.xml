@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_today"
+            android:icon="@drawable/ic_today_black_24dp"
+            android:title="Today" />
+        <item
+            android:id="@+id/nav_courses"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="Courses" />
+        <item
+            android:id="@+id/nav_timetable"
+            android:icon="@drawable/ic_apps_black_24dp"
+            android:title="Timetable" />
+        <item
+            android:id="@+id/nav_imp_date"
+            android:icon="@drawable/ic_date_range_black_24dp"
+            android:title="Important Dates" />
+        <item
+            android:id="@+id/nav_imp_info"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="Important Information" />
+        <item
+            android:id="@+id/nav_special_lec"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Special Lecture" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="Help" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Exit" />
+
+    </group>
+
+
+</menu>
